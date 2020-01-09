@@ -2,12 +2,7 @@ workflows:
   version: 2.1
   main:
     jobs:
-      - deploy:
-          filters:
-            tags:
-              only: /.*/
-            branches:
-              ignore: /.*/
+      - deploy
 
 version: 2.1
 jobs:
