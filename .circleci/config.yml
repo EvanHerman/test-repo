@@ -6,8 +6,6 @@ workflows:
           filters:
             tags:
               only: /.*/
-            branches:
-              ignore: /.*/
 
 version: 2.1
 jobs:
